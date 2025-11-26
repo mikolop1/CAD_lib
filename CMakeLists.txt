@@ -22,6 +22,10 @@ set(CADLIB_SOURCES
     src/Vector3D.cpp
     src/Matrix4x4.cpp
     src/Geometry.cpp
+    src/Plane.cpp
+    src/Circle.cpp
+    src/Loft.cpp
+    src/Mesh.cpp
 )
 
 # Header files
@@ -30,6 +34,10 @@ set(CADLIB_HEADERS
     include/Vector3D.h
     include/Matrix4x4.h
     include/Geometry.h
+    include/Plane.h
+    include/Circle.h
+    include/Loft.h
+    include/Mesh.h
 )
 
 # Create static library

@@ -12,3 +12,6 @@ target_link_libraries(surfaces_example CADLib)
 
 add_executable(transformations_example transformations_example.cpp)
 target_link_libraries(transformations_example CADLib)
+
+add_executable(construction_example construction_example.cpp)
+target_link_libraries(construction_example CADLib)
